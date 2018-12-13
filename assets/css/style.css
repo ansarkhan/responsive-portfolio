@@ -226,4 +226,30 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
+@media only screen and (max-width: 640px) {
+    div.header {
+            width: 100%;
+        }
+    div.container {
+            width:100%;
+        }
+  }
+
+@media only screen and (max-width: 768px) {
+    div.header {
+        width: 768px;
+    }
+    div.container {
+        width:768px;
+    }
+    .nav {
+        margin-right: 20px;
+    }
+  }
+
+@media only screen and (max-width: 980px) {
+    body {
+
+    }
+  }
 
